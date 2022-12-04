@@ -3,150 +3,148 @@
 </style>
 <div class="bgm" style="height:1200px;background-position:center;background-repeat: no-repeat;background-size: cover;">
     <div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                <h1>Employee Registeration</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Employee Id</label>
-                    <input type="text" class="form-control">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <h1>Employee Registeration</h1>
                 </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">First Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Last Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">House Number</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Street name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Pin Code</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">District</label>
-                   <select  name="" id="" class="form-control">
-                    <option value="Alappuzha">Alappuzha</option>
-                    <option value="Ernakulam">Ernakulam</option>
-                    <option value="Idukki">Idukki</option>
-                    <option value="Kannur">Kannur</option>
-                    <option value="Kasargod">Kasargod</option>
-                    <option value="Kollam">Kollam</option>
-                    <option value="Kottayam">Kottayam</option>
-                    <option value="Kozhikode">Kozhikode</option>
-                    <option value="Malappuram">Malappuram</option>
-                    <option value="Palakkad">Palakkad</option>
-                    <option value="Pathanamthitta">Pathanamthitta</option>
-                    <option value="Thrissur">Thrissur</option>
-                    <option value="Wayanad">Wayanad</option>
-                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
-                   </select>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">State</label>
-                    <select  name=""  id="" class="form-control">
-                        <option value="Andhra Pradesh">Andhra Pradesh</option>
-                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                        <option value="Assam">Assam</option>
-                        <option value="Bihar">Bihar</option>
-                        <option value="Chhattisgarh">Chhattisgarh</option>
-                        <option value="Goa">Goa</option>
-                        <option value="Gujarat">Gujarat</option>
-                        <option value="Haryana">Haryana</option>
-                        <option value="Himachal Pradesh">Himachal Pradesh</option>
-                        <option value="Jharkhand">Jharkhand</option>
-                        <option value="Karnataka">Karnataka</option>
-                        <option value="Kerala">Kerala</option>
-                        <option value="Madhya Pradesh">Madhya Pradesh</option>
-                        <option value="Maharashtra">Maharashtra</option>
-                        <option value="Manipur">Manipur</option>
-                        <option value="Meghalaya">Meghalaya</option>
-                        <option value="Mizoram">Mizoram</option>
-                        <option value="Nagaland">Nagaland</option>
-                        <option value="Odisha">Odisha</option>
-                        <option value="Punjab">Punjab</option>
-                        <option value="Rajasthan">Rajasthan</option>
-                        <option value="Sikkim">Sikkim</option>
-                        <option value="Tamil Nadu">Tamil Nadu</option>
-                        <option value="Telangana">Telangana</option>
-                        <option value="Tripura">Tripura</option>
-                        <option value="Uttar Pradesh">Uttar Pradesh</option>
-                        <option value="Uttarakhand">Uttarakhand</option>
-                        <option value="West Bengal">West Bengal</option>
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Employee Id</label>
+                        <input name="empid" [(ngModel)]="empid" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">First Name</label>
+                        <input name="fname" [(ngModel)]="fname" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Last Name</label>
+                        <input name="lname" [(ngModel)]="lname" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">House Number</label>
+                        <input name="houseno" [(ngModel)]="houseno"  type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Street name</label>
+                        <input name="sname" [(ngModel)]="sname" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Pin Code</label>
+                        <input name="pin" [(ngModel)]="pin" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">District</label>
+                       <select  name="district" [(ngModel)]="district" id="" class="form-control">
+                        <option value="Alappuzha">Alappuzha</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Idukki">Idukki</option>
+                        <option value="Kannur">Kannur</option>
+                        <option value="Kasargod">Kasargod</option>
+                        <option value="Kollam">Kollam</option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Kozhikode">Kozhikode</option>
+                        <option value="Malappuram">Malappuram</option>
+                        <option value="Palakkad">Palakkad</option>
+                        <option value="Pathanamthitta">Pathanamthitta</option>
+                        <option value="Thrissur">Thrissur</option>
+                        <option value="Wayanad">Wayanad</option>
+                        <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                       </select>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">State</label>
+                        <select  name="state" [(ngModel)]="state"  id="" class="form-control">
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                        </select>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Country</label>
+                        <select name="country" [(ngModel)]="country" id="" class="form-control">
+                            <option value="Australia">Australia</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Germany">Germany</option>
+                            <option value="India">India</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Turkey">Turkey</option>
+                            <option value="Ukraine">Ukraine</option>
                     </select>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Mobile</label>
+                        <input name="mobile" [(ngModel)]="mobile"  type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Email</label>
+                        <input name="email" [(ngModel)]="email"  type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Parent Name</label>
+                        <input name="pname" [(ngModel)]="pname"  type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Gender</label>
+                        <input name="gender" [(ngModel)]="gender"  type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Highest Degree</label>
+                        <input name="hdegree" [(ngModel)]="hdegree" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Year of Experience</label>
+                        <input name="yexp" [(ngModel)]="yexp" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Date of Joining</label>
+                        <input name="djoin" [(ngModel)]="djoin" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Username</label>
+                        <input name="uname" [(ngModel)]="uname" type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Password</label>
+                        <input name="pass" [(ngModel)]="pass" type="password" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Confirm Password</label>
+                        <input name="cpass" [(ngModel)]="cpass" type="password" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4 text-center">
+                        <button (click)="readValue()" class="btn btn-success">Register</button>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4 text-center">
+                        <button class="btn btn-link">Employee Login</button>
+                    </div>
                 </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Country</label>
-                    <select name=""id="" class="form-control">
-                        <option value="Australia">Australia</option>
-                        <option value="Bangladesh">Bangladesh</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Germany">Germany</option>
-                        <option value="India">India</option>
-                        <option value="Japan">Japan</option>
-                        <option value="Saudi Arabia">Saudi Arabia</option>
-                        <option value="Turkey">Turkey</option>
-                        <option value="Ukraine">Ukraine</option>
-                </select>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Mobile</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Email</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Parent Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Gender</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Highest Degree</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Year of Experience</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Date of Joining</label>
-                    <input type="date" name="" id="" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Username</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Password</label>
-                   <input type="password" name="" id="" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Confirm Password</label>
-                  <input type="password" name="" id="" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4 text-center">
-                    <button class="btn btn-success">Register</button>
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-4 text-center">
-                    <button class="btn btn-link text-light">Back To Employee Login</button>
-                </div>
-            </div>
+        </div>
     </div>
-</div>
-
-

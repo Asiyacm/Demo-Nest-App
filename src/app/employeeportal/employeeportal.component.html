@@ -1,32 +1,36 @@
-<app-navigation></app-navigation>
 <style>
     .bgm{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpw_y7m37RwL9Jvwo5qofWs1-QrZa9OXIUym9KMqdKj2jRSC7B_yyrCEeTUftyd8IsSk&usqp=CAU') ;}
 </style>
 <div class="bgm" style="height:700px;background-position:center;background-repeat: no-repeat;background-size: cover;border: 3px;">
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-        <div class="row g-3">
-
-            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                <h1>Employee Portal</h1>
-            </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Emp Id</label>
-                    <input type="text" class="form-control">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                
+                <div class="row g-3">
+    
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                        <h1>Employee Login</h1>
+                    </div>
+    
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Employee Id</label>
+                        <input name="empid" [(ngModel)]="empid" type="text" class="form-control">
+                    </div>
+    
+                    <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="" class="form-label">Password</label>
+                        <input name="password" [(ngModel)]="password" type="password" class="form-control">
+                    </div>
+    
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button (click)="readValue()" class="btn btn-primary">Login</button>
+                        </div>
+    
+                        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button class="btn btn-link">Employee Registration</button> 
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" class="form-label">Password</label>
-                    <input type="password" name="" id="" class="form-control">
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button class="btn btn-primary">Login</button>
-                </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button class="btn btn-link text-dark">New Employee Registration</button>
-                </div>
-            </div>
-    </div> 
-</div>
-</div>
-
+        </div>
+    </div>
