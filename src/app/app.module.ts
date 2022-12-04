@@ -11,6 +11,7 @@ import { EmployeeportalComponent } from './employeeportal/employeeportal.compone
 import { EmploginComponent } from './emplogin/emplogin.component';
 import { AddcourseComponent } from './addcourse/addcourse.component';
 import { ViewcourseComponent } from './viewcourse/viewcourse.component';
+import { AddfriendsComponent } from './addfriends/addfriends.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ViewcourseComponent } from './viewcourse/viewcourse.component';
     EmployeeportalComponent,
     EmploginComponent,
     AddcourseComponent,
-    ViewcourseComponent
+    ViewcourseComponent,
+    AddfriendsComponent
   ],
   imports: [
     BrowserModule,
