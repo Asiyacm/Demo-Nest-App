@@ -28,6 +28,7 @@ export class EmploginComponent {
   cpass=""
 
 
+  
   readValue=()=>
   {
     let data:any=
@@ -37,6 +38,12 @@ export class EmploginComponent {
     "password":this.pass,"cpassword":this.cpass}
   
     console.log(data)
+
+    if (this.pass==this.cpass) {
+      alert("Registered successfully")
+    } else {
+      alert("Password and ConfirmPassword doesnt match")
+    }
 
   }
 
