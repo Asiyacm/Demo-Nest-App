@@ -10,6 +10,7 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { EmployeeportalComponent } from './employeeportal/employeeportal.component';
 import { EmploginComponent } from './emplogin/emplogin.component';
 import { AddcourseComponent } from './addcourse/addcourse.component';
+import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
     AdminloginComponent,
     EmployeeportalComponent,
     EmploginComponent,
-    AddcourseComponent
+    AddcourseComponent,
+    ViewcourseComponent
   ],
   imports: [
     BrowserModule,
