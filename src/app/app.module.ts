@@ -9,6 +9,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { EmployeeportalComponent } from './employeeportal/employeeportal.component';
 import { EmploginComponent } from './emplogin/emplogin.component';
+import { AddcourseComponent } from './addcourse/addcourse.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EmploginComponent } from './emplogin/emplogin.component';
     ContactusComponent,
     AdminloginComponent,
     EmployeeportalComponent,
-    EmploginComponent
+    EmploginComponent,
+    AddcourseComponent
   ],
   imports: [
     BrowserModule,
