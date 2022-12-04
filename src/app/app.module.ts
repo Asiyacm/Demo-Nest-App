@@ -13,6 +13,55 @@ import { AddcourseComponent } from './addcourse/addcourse.component';
 import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { AddfriendsComponent } from './addfriends/addfriends.component';
 import { ViewfriendsComponent } from './viewfriends/viewfriends.component';
+import { RouterModule, Routes } from '@angular/router';
+
+
+const myRoute:Routes=
+[
+  {
+    path:"",
+    component: HomeComponent
+  },
+  {
+  path:"gallery",
+  component: GalleryComponent
+},
+{
+  path:"contactus",
+  component: ContactusComponent
+},
+
+{
+  path:"adminLogin",
+  component: AdminloginComponent
+},
+{
+  path:"employeeLogin",
+  component: EmployeeportalComponent
+},
+{
+  path:"employeeRegistration",
+  component: EmploginComponent
+},
+{
+  path:"viewCourse",
+  component: ViewcourseComponent
+},
+{
+  path:"viewFriends",
+  component:ViewfriendsComponent
+},
+
+{
+  path:"addCourse",
+  component:AddcourseComponent
+},
+{
+  path:"addFriends",
+  component:AddfriendsComponent
+}
+]
+
 
 @NgModule({
   declarations: [
@@ -30,7 +79,8 @@ import { ViewfriendsComponent } from './viewfriends/viewfriends.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
