@@ -8,6 +8,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { EmployeeportalComponent } from './employeeportal/employeeportal.component';
+import { EmploginComponent } from './emplogin/emplogin.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EmployeeportalComponent } from './employeeportal/employeeportal.compone
     GalleryComponent,
     ContactusComponent,
     AdminloginComponent,
-    EmployeeportalComponent
+    EmployeeportalComponent,
+    EmploginComponent
   ],
   imports: [
     BrowserModule,
